@@ -1,0 +1,24 @@
+[{
+    "id": 4,
+    "alias": "ac",
+    "name": "Assasins Creed",
+    "desc": "Assasination Game"
+},
+{
+    "id": 3,
+    "alias": "gta",
+    "name": "Grand Theft Auto",
+    "desc": "Real Simulation Game"
+},
+{
+    "id": 2,
+    "alias": "mw",
+    "name": "Mafia Wars",
+    "desc": "Mafia Games"
+},
+{
+    "id": 1,
+    "alias": "uk",
+    "name": "Unknown",
+    "desc": "Free to Decide"
+}]

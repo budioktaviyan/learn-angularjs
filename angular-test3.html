@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="gameListApp">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <meta name="viewport" content="width=device-width, user-scalable=0"/>
+
+    <title>Angular Test 3</title>
+
+    <link href="res/css/lib/bootstrap.min.css" rel="stylesheet">
+</head>
+<body ng-controller="GameListController">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md2">
+            Search: <input ng-model="query">
+        </div>
+        <div class="col-md-10">
+            <ul class="games">
+                <li ng-repeat="game in games | filter:query">
+                    {{game.name}}
+                    <p>{{game.desc}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="res/js/lib/jquery.min.js"></script>
+<script src="res/js/lib/angular.min.js"></script>
+<script src="res/js/lib/bootstrap.min.js"></script>
+<script src="res/js/app-test3.js"></script>
+</body>
+</html>

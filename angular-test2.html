@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="gameListApp">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <meta name="viewport" content="width=device-width, user-scalable=0"/>
+
+    <title>Angular Test 2</title>
+</head>
+<body ng-controller="GameListController">
+<ul>
+    <li ng-repeat="game in games">
+        <span>{{game.name}}</span>
+        <p>{{game.desc}}</p>
+    </li>
+</ul>
+
+<script src="res/js/lib/angular.min.js"></script>
+<script src="res/js/app-test2.js"></script>
+</body>
+</html>
